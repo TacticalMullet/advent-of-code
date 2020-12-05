@@ -1,4 +1,4 @@
-package adventcode
+package aoc
 
 import java.io.File
 
