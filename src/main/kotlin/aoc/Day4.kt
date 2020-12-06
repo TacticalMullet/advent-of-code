@@ -2,6 +2,10 @@ package aoc
 
 import java.io.File
 
+/**
+ * https://adventofcode.com/2020/day/4
+ */
+
 fun main() {
     val input = File(ClassLoader.getSystemResource("202004").file).readText()
     fun String.toRequirement(): Requirement = this.split(":").let { (name, value) -> Requirement( name, value ) }

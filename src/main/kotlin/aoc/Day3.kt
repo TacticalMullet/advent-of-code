@@ -2,6 +2,10 @@ package aoc
 
 import java.io.File
 
+/**
+ * https://adventofcode.com/2020/day/3
+ */
+
 fun main() {
     val input = File(ClassLoader.getSystemResource("202003").file).readText().split("\n")
 
